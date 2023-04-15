@@ -1,29 +1,25 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
-    width: 175px;
-    margin-bottom: 50px;
     border-radius: 50%;
+
 }
 
 #welcome {
 
     position: absolute;
-    height: 800px;
     color: #FFFFFF;
-    left: 0;
-    top: 0;
     bottom: 0;
-    right: 0;
-    opacity: 0.83;
-    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    background: linear-gradient( #99ff99 0%, #003311 100%);
     display: table;
     width: 100%;
     height: 100%;
-    z-index: 9
+    z-index: 9;
+    
 }
 
 
@@ -31,26 +27,26 @@ body {
 h1 {
 
     font-size: 40px;
-    font-family: 'Fuggles', cursive;
+    font-family: sans-serif;
     font-weight: 300;
-    
+
 }
 
 #name {
-    font-size: 30px;
+    font-size: 50px;
     line-height: 1.2;
-    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Cinzel Decorative', cursive;
 
 }
 
 h2 {
     font-size: 30px;
     font-weight: 300;
-    line-height: 1.2;
-    font-family: 'Great Vibes', cursive;
+    font-family: monospace;
 }
 
 #bio {
+    font-family: 'Cinzel Decorative', cursive;
 
     padding: 50px;
     text-align: center;
@@ -65,11 +61,7 @@ h2 {
 
 
 p {
-    max-width: 450px;
-    margin: 25px auto;
     font-size: 17px;
-    line-height: 1.3;
-    font-family:'Alumni Sans Inline One', cursive;
 }
 
 .parallax-inner {
@@ -82,30 +74,72 @@ p {
 }
 
 
+
 .menu {
-   
-    list-style: none;
-    font-family: Palette Mosaic, cursive;
-  position: absolute;
-    top:10px;
-    right: 30px;
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
+    
 }
 
 .links {
-    float: left;
-    color: #fff;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-    font-family:Kings, cursive;
-    font-size: 20px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
 }
-
-
-
 .links:hover {
-    background-color:darkmagenta;
+    font-size: 25px;
+    text-decoration: underline;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: darkcyan;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.article:hover {
+    color:fuchsia;
+}
+
+
+#writings a
+{
+text-shadow: none !important ;  
+   
+text-decoration: underline !important;
+color: mediumvioletred!important;
+}
+
+#contact
+{
+background-color: darkturquoise;
+}
+
+#contact iframe
+{
+    width: 100%;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    color: firebrick;
+    text-shadow: none;
+}
+#writings{
+    font-family: 'Dancing Script', cursive;
+}
+
